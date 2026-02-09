@@ -1,0 +1,35 @@
+/* Color Palette: Blue (#3498db), Light Purple (#D1D1F0), Light Yellow (#F9E79F) */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background-color: #0f172a; color: #fff; line-height: 1.6; }
+
+/* Navigation */
+header { background: #1e293b; padding: 20px 10%; border-bottom: 3px solid #3498db; position: fixed; width: 100%; top: 0; z-index: 1000; }
+.logo { font-size: 24px; font-weight: bold; color: #D1D1F0; }
+.logo span { color: #3498db; }
+nav ul { display: flex; list-style: none; }
+nav ul li { margin-left: 20px; }
+nav a { text-decoration: none; color: #fff; font-weight: 500; transition: 0.3s; }
+nav a:hover { color: #F9E79F; }
+
+/* Section Styling */
+section { padding: 100px 10% 40px; }
+h2 { font-size: 36px; text-align: center; margin-bottom: 40px; text-transform: uppercase; }
+.light-purple { color: #D1D1F0; }
+.light-yellow { color: #F9E79F; }
+.blue { color: #3498db; }
+
+/* Buttons */
+.btn { display: inline-block; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: 0.3s; cursor: pointer; border: none; }
+.btn-blue { background-color: #3498db; color: #fff; }
+.btn-blue:hover { background-color: #2980b9; transform: scale(1.05); }
+
+/* Services & Projects */
+.services-grid, .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.service-card, .project-card { background: #1e293b; padding: 25px; border-radius: 15px; border: 2px solid #D1D1F0; text-align: center; transition: 0.3s; }
+.service-card:hover { border-color: #F9E79F; transform: translateY(-5px); }
+.read-more { background: transparent; border: 1px solid #F9E79F; color: #F9E79F; padding: 5px 15px; margin-top: 15px; cursor: pointer; border-radius: 4px; }
+.read-more:hover { background: #F9E79F; color: #0f172a; }
+
+/* Contact Form */
+#contact-form { max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+input, textarea { width: 100%; padding: 12px; background: #334155; border: 1px solid #D1D1F0; border-radius: 5px; color: #fff; }

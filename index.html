@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanika Sahu | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sanika <span>Sahu</span></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h5 class="light-purple">Hi, I'm</h5>
+            <h1>Sanika Sahu</h1>
+            <h5>And I'm a <span class="light-yellow">Web Developer</span></h5>
+            <p>A skilled web developer with expertise in **HTML, CSS, JavaScript, Java, and C++**. I specialize in creating responsive designs and efficient applications</p>
+            <!-- Active Download Resume Link -->
+            <a href="resume.pdf" download="Sanika_Sahu_Resume" class="btn btn-blue">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="light-purple">About ME</h2>
+        <div class="about-container">
+            <p>I specialize in creating **responsive and visually appealing websites** using HTML, CSS, and JavaScript, ensuring seamless user experiences.With expertise in **HTML,CSS,JavaScript and PHP,MySQL**, I develop efficient algorithms and scalable solutions. Additionally, as a creative logo designer, I craft professional logos using **Canva**.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="light-purple">My SERVICES</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3 class="blue">WEB DEVELOPMENT</h3>
+                <p>I excel in creating responsive websites focusing on seamless user experiences tailored to meet diverse requirements.</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="service-card">
+                <h3 class="blue">LOGO DESIGN</h3>
+                <p>Beyond coding, I am a creative logo designer with proficiency in Canva, specializing in professional logos</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="service-card" id="java-service">
+                <h3 class="blue">JAVA DEVELOPER</h3>
+                <p>As a passionate programmer, I am skilled in Java and C++, enabling me to develop efficient algorithms</p>
+                <div class="extra-content" id="extra-java" style="display:none;">
+                    <p class="light-yellow">I enjoy problem-solving and thrive on turning complex concepts into reliable, scalable solutions.</p>
+                </div>
+                <button class="read-more" onclick="toggleReadMore()">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="light-purple">Latest PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project-card"><h4>Visitor management System</h4><p>Built using HTML, CSS,JavaScript,Php,MySQL,Laravel framework.</p></div>
+            <div class="project-card"><h4>Registration Form</h4><p>Registration form include basic details name email id phone number etc.</p></div>
+            <div class="project-card"><h4>Railway Reservation System</h4><p>A software application that automates train ticket booking, cancellation, and scheduling, offering real-time seat availability and passenger</p></div>
+            <div class="project-card"><h4>Chatapp</h4><p>A secure, real-time messaging application featuring user authentication (sign-up/login) for personalized access. It enables instant one-on-one or group conversations, allowing users to send and receive text messages, images, and media</p></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="light-purple">Contact ME</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit" class="btn btn-blue">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

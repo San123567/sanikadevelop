@@ -50,7 +50,7 @@
 | Project | Description | Tech |
 |--------|-------------|------|
 | 🔹 Project 1 | Visitor management System | HTML/CSS/JS/Php/MySQL/Laravel|
-| 🔹 Project 2 | Registration Form | HTML/CSS/JS |
+| 🔹 Project 2 | Chatapp | HTML/CSS/JS |
 | 🔹 Project 3 | Railway Reservation System | HTML/CSS/JavaScript/Php/MySQL|
 
 ---
